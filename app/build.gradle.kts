@@ -20,6 +20,7 @@ plugins {
   id("kotlin-parcelize")
   id("kotlin-kapt")
   id("dagger.hilt.android.plugin")
+  id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -113,9 +114,11 @@ dependencies {
   implementation(libs.androidx.appcompat)
   implementation(libs.androidx.constraintlayout)
   implementation(libs.androidx.core.ktx)
+  implementation(libs.androidx.fragment.ktx)
   implementation(libs.androidx.lifecycle.livedata.ktx)
   implementation(libs.androidx.lifecycle.viewmodel.ktx)
-  implementation(libs.androidx.navigation.compose)
+  implementation(libs.androidx.navigation.fragment.ktx)
+  implementation(libs.androidx.navigation.ui.ktx)
   implementation(libs.androidx.paging.compose)
   implementation(libs.androidx.paging.runtime.ktx)
   implementation(libs.androidx.room.ktx)
@@ -128,7 +131,6 @@ dependencies {
   implementation(libs.kotlinx.coroutines.android)
   implementation(libs.kotlinx.coroutines.core)
   implementation(libs.hilt.android)
-  implementation(libs.hilt.navigation.compose)
   implementation(libs.androidx.profileinstaller)
   implementation(libs.androidx.tracing.ktx)
 
