@@ -8,7 +8,7 @@ a View-based app to Jetpack Compose.
 This sample showcases:
 * Compose working in an existing app: including integration with strings, resources, and themes and styles.
 * Integration with an existing architecture based on Jetpack libraries.
-* `CollapsingToolbarLayout` behavior implemented manually with Compose.
+* `Collapsing  Toolbar Layout` gitbehavior implemented manually with Compose.
 * Showing [Snackbars](https://material.io/components/snackbars) with Compose.
 * Using Compose within a `RecyclerView` ([#766](https://github.com/android/sunflower/pull/766))
 
